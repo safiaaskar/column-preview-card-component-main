@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+}
+
+
+html {
+    font-size: 70%;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+section {
+    background: var(--Very-light-gray-background-headings-buttons);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    margin: 5rem 15%;
+    overflow: hidden;
+    border-radius: 1rem;
+    flex-wrap: wrap;
+}
+
+.content .card {
+    padding: 3rem;
+    flex: 1 1 20rem;
+}
+
+.content .Sedans {
+    background: var(--Bright-orange);
+}
+
+.content .Sedans .btn {
+    color: var(--Bright-orange);
+}
+
+.content .SUVs {
+    background: var(--Dark-cyan);
+}
+
+.content .SUVs .btn {
+    color: var(--Dark-cyan);
+}
+
+.content .Luxury {
+    background: var(--Very-dark-cyan);
+}
+
+.content .Luxury .btn {
+    color: var(--Very-dark-cyan);
+}
+
+.content .card .svg {
+    padding-bottom: 3rem;
+}
+
+.content .card h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--Very-light-gray-background-headings-buttons);
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.content .card p {
+    color: var(--paragraphs);
+    padding-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.content .card .btn {
+    display: block;
+    background: var(--Very-light-gray-background-headings-buttons);
+    padding: 1rem 2rem;
+    margin-top: 7rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    width: fit-content;
+}
+
+
+@media(max-width:768px) {
+    .content .card .btn {
+        margin-top: 4rem;
+    }
+}
