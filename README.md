@@ -1,5 +1,5 @@
 # Frontend Mentor - 3-column preview card component
-https://stats-preview-cards-component-main.netlify.app/
+https://3-column-preview-cards-component-main.netlify.app/
 
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
